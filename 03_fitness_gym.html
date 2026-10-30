@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Center and Gym</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #f4f4f4; background: #17191d; }
+    header { background: #090a0c; padding: 20px 7%; border-bottom: 3px solid #e84a36; }
+    header h1 { margin: 0; color: #f04d39; letter-spacing: 2px; }
+    nav { margin-top: 14px; }
+    nav a { color: white; text-decoration: none; margin-right: 20px; font-weight: bold; }
+    nav a:hover { color: #ff725f; }
+    .hero { background: #292d33; padding: 55px 8%; text-align: center; }
+    .hero h2 { color: #ff5a45; font-size: 34px; }
+    .hero p { font-size: 18px; }
+    .button { display: inline-block; background: #e84a36; color: white; padding: 12px 22px; text-decoration: none; border-radius: 4px; }
+    section { padding: 26px 7%; }
+    h2 { color: #ff6854; }
+    .card { display: inline-block; vertical-align: top; width: 25%; min-height: 120px; margin: 1%; padding: 16px; background: #252930; border: 1px solid #414750; border-radius: 6px; }
+    .card h3 { color: #ff9a89; margin-top: 0; }
+    .price { font-size: 25px; color: #ff725f; font-weight: bold; }
+    .formbox { background: #252930; padding: 20px; max-width: 500px; border-radius: 7px; }
+    input, select { display: block; width: 95%; padding: 10px; margin: 10px 0; border: 1px solid #777; border-radius: 4px; }
+    footer { background: #090a0c; text-align: center; padding: 18px; color: #ddd; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IRONCORE FITNESS</h1>
+    <nav><a href="#programs">Programs</a><a href="#trainers">Trainers</a><a href="#plans">Membership</a><a href="#schedule">Schedule</a><a href="#join">Join Us</a></nav>
+  </header>
+  <div class="hero">
+    <h2>BUILD STRENGTH. BUILD CONFIDENCE.</h2>
+    <p>Train smart, stay active, and make every workout count.</p>
+    <a class="button" href="#join">Start Your Journey</a>
+  </div>
+  <section id="programs">
+    <h2>Workout Programs</h2>
+    <div class="card"><h3>Strength Training</h3><p>Guided resistance and strength sessions.</p></div>
+    <div class="card"><h3>Cardio Fitness</h3><p>Improve stamina with cardio activities.</p></div>
+    <div class="card"><h3>Yoga &amp; Flexibility</h3><p>Balance, mobility, and relaxation.</p></div>
+  </section>
+  <section id="trainers">
+    <h2>Our Trainers &amp; Facilities</h2>
+    <div class="card"><h3>Expert Trainers</h3><p>Supportive guidance for safe exercise.</p></div>
+    <div class="card"><h3>Modern Equipment</h3><p>Weights, cardio machines, and training space.</p></div>
+    <div class="card"><h3>Group Classes</h3><p>Friendly sessions for different fitness levels.</p></div>
+  </section>
+  <section id="plans">
+    <h2>Membership Plans</h2>
+    <div class="card"><h3>Basic</h3><p class="price">₹799 / month</p><p>Gym access</p></div>
+    <div class="card"><h3>Standard</h3><p class="price">₹1,299 / month</p><p>Gym + group classes</p></div>
+    <div class="card"><h3>Premium</h3><p class="price">₹1,999 / month</p><p>Classes + trainer guidance</p></div>
+  </section>
+  <section id="schedule">
+    <h2>Class Schedule</h2>
+    <div class="card"><h3>Morning</h3><p>6:00 AM – 9:00 AM</p></div>
+    <div class="card"><h3>Evening</h3><p>5:00 PM – 9:00 PM</p></div>
+    <div class="card"><h3>Weekend</h3><p>7:00 AM – 11:00 AM</p></div>
+  </section>
+  <section id="join">
+    <h2>Membership Registration</h2>
+    <div class="formbox">
+      <form>
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email address">
+        <input type="tel" placeholder="Phone number">
+        <select><option>Select a plan</option><option>Basic</option><option>Standard</option><option>Premium</option></select>
+        <input type="submit" value="Submit Registration" class="button">
+      </form>
+    </div>
+  </section>
+  <footer>© 2026 IRONCORE FITNESS · Train with purpose</footer>
+</body>
+</html>
